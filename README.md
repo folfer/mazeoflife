@@ -27,6 +27,16 @@ O ICON - Laboratório de Pesquisa, Desenvolvimento e Inovação em Interatividad
 * Game Design: Fellipe Narde
 * Trilha Sonora: André Bahiense, Fellipe Narde
 
+
+
+## Vizualização
+
+<div align="center">
+  <img src="screenshots/gamepage.jpg" width="800">
+  <img src="screenshots/startpage.jpg" width="800">
+  <img src="screenshots/endpage.jpg" width="800">
+</div>
+
 ## Referências
 
 Maze Generator and Explorer\
