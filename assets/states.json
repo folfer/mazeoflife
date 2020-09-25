@@ -1,0 +1,164 @@
+{
+  "AC": {
+    "label": "Rio Branco",
+    "lat": "-9.97472",
+    "long": "-67.81",
+    "transparency": 38
+  },
+  "AL": {
+    "label": "Maceió",
+    "lat": "-9.66583",
+    "long": "-35.73528",
+    "transparency": 60
+  },
+  "AP": {
+    "label": "Macapá",
+    "lat": "0.034934",
+    "long": "-51.0694",
+    "transparency": 86
+  },
+  "AM": {
+    "label": "Manaus",
+    "lat": "-3.10194",
+    "long": "-60.025",
+    "transparency": 57
+  },
+  "BA": {
+    "label": "Salvador",
+    "lat": "-12.97111",
+    "long": "-38.51083",
+    "transparency": 55
+  },
+  "CE": {
+    "label": "Fortaleza",
+    "lat": "-3.71722",
+    "long": "-38.54306",
+    "transparency": 95
+  },
+  "DF": {
+    "label": "Brasília",
+    "lat": "-15.77972",
+    "long": "-47.92972",
+    "transparency": 81
+  },
+  "ES": {
+    "label": "Vitória",
+    "lat": "-20.3155",
+    "long": "-40.3128",
+    "transparency": 93
+  },
+  "GO": {
+    "label": "Goiânia",
+    "lat": "-16.67861",
+    "long": "-49.25389",
+    "transparency": 86
+  },
+  "MA": {
+    "label": "São Luís",
+    "lat": "-2.52972",
+    "long": "-44.30278",
+    "transparency": 79
+  },
+  "MT": {
+    "label": "Cuiabá",
+    "lat": "-15.59611",
+    "long": "-56.09667",
+    "transparency": 45
+  },
+  "MS": {
+    "label": "Campo Grande",
+    "lat": "-20.44278",
+    "long": "-54.64639",
+    "transparency": 43
+  },
+  "MG": {
+    "label": "Belo Horizonte",
+    "lat": "-19.92083",
+    "long": "-43.93778",
+    "transparency": 88
+  },
+  "PA": {
+    "label": "Belém",
+    "lat": "-1.45583",
+    "long": "-48.50444",
+    "transparency": 48
+  },
+  "PB": {
+    "label": "João Pessoa",
+    "lat": "-7.115",
+    "long": "-34.86306",
+    "transparency": 81
+  },
+  "PR": {
+    "label": "Curitiba",
+    "lat": "-25.42778",
+    "long": "-49.27306",
+    "transparency": 79
+  },
+  "PE": {
+    "label": "Recife",
+    "lat": "-8.05389",
+    "long": "-34.88111",
+    "transparency": 98
+  },
+  "PI": {
+    "label": "Teresina",
+    "lat": "-5.08917",
+    "long": "-42.80194",
+    "transparency": 76
+  },
+  "RJ": {
+    "label": "Rio de Janeiro",
+    "lat": "-22.90278",
+    "long": "-43.2075",
+    "transparency": 79
+  },
+  "RN": {
+    "label": "Natal",
+    "lat": "-5.795",
+    "long": "-35.20944",
+    "transparency": 74
+  },
+  "RS": {
+    "label": "Porto Alegre",
+    "lat": "-30.03306",
+    "long": "-51.23",
+    "transparency": 55
+  },
+  "RO": {
+    "label": "Porto Velho",
+    "lat": "-8.761127",
+    "long": "-63.896318",
+    "transparency": 98
+  },
+  "RR": {
+    "label": "Boa Vista",
+    "lat": "2.82384",
+    "long": "-60.6753",
+    "transparency": 40
+  },
+  "SC": {
+    "label": "Florianópolis",
+    "lat": "-27.5945",
+    "long": "-48.5477",
+    "transparency": 48
+  },
+  "SP": {
+    "label": "São Paulo",
+    "lat": "-23.5475",
+    "long": "-46.6395",
+    "transparency": 67
+  },
+  "SE": {
+    "label": "Aracaju",
+    "lat": "-10.91111",
+    "long": "-37.07167",
+    "transparency": 45
+  },
+  "TO": {
+    "label": "Palmas",
+    "lat": "-10.24",
+    "long": "-48.3558",
+    "transparency": 50
+  }
+}

@@ -1,0 +1,677 @@
+/* W3SCHOOL MEDIA QUERY https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+/*
+CSS para tags HTML
+*/
+body { 
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color:inherit;
+} 
+button, 
+div,
+input, select,
+h1, h2, h3, h4, h5, h6, 
+p,
+span, 
+a{
+	font-family: inherit;
+}
+/* Remover todo o layout padrão de borda dos botões */
+button.change {
+	border: none;
+	outline: none;
+}
+button.launch {
+	border: none;
+	outline: none;
+}
+button.launch:hover {
+	border: none;
+	outline: none;
+}
+button:active {
+	outline: none;
+	border: none;
+}
+
+
+/*
+Classes para manipulação individual do layout
+*/
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.center-text{
+	text-align: center;
+}
+.left-text{
+	text-align: left;
+}
+.margin-10{
+	margin: 10px;
+}
+.border{
+	border: 2px solid white;
+}
+.border-top{
+	border-top: 3px solid white;
+}
+.width-max{
+	width: 100%;
+}
+.width-half{
+	width: 50%;
+}
+.width-half-quarter{
+	width: 75%;
+}
+/*
+Cores
+*/
+/* Cores de Texto baseadas nas cores dos itens da obra */
+.color-player{
+	color: #f94263;
+}
+.color-bot{
+	color: #005d95
+}
+.color-floor{
+	color: white;
+}
+.color-wall{
+	color: black;
+}
+/* Cores de background baseados nas cores dos itens da obra */
+.background-player{
+	background-color: #f94263;
+}
+.background-bot{
+	background-color: #005d95
+}
+.background-floor{
+	background-color: white;
+}
+.background-wall{
+	background-color: black;
+}
+/* 
+Classes baseadas nos elementos predefinidos na obra 
+*/
+/* Modais */
+.gameModal{
+	position: absolute;
+}
+.modalDiv{
+	position: absolute;
+}
+.screenButton{
+	float: none !important;
+	margin: 0px !important;
+	width: 100%;
+	height: 50px;
+}
+.gameoverText p{
+	margin: 0;
+}
+.menuParent{
+	position: absolute;
+}
+.menuParent span {
+	float:none;
+}
+.pauseDiv{
+	position: absolute;
+}
+/* Telas */
+.container{
+	height: 70%;
+	overflow: hidden;
+	overflow-y: scroll;
+	width: 100%;
+}
+/* Models */
+.keyModel {
+	width: 6vw;
+	height: 5vw;
+	padding-top: 1vw;
+}
+.keyModel-margin-all{
+	margin: 5px;
+}
+.keyModel-margin{
+	margin: auto;
+	width: 30%;
+}
+.key-line{
+	display: table-row-group;
+	text-align: -webkit-right;
+	float: right;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.keyGroup{
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.textGroup{
+	width: 60%;
+	float: right;
+}
+/* SELECT */
+.select{
+	text-align-last: center;
+	margin-bottom: 15px;
+	height: 5vw;
+}
+/* BOTÕES */
+.disabled {
+	color: #8c8c8c;
+}
+.menuChild{
+	float: left;
+}
+.modalChild{
+	margin-left: 10px;
+}
+.pauseButton{
+	position: absolute;
+	float: right;
+	right: 5%;
+	top: 5%;
+	padding: 15px;
+}
+.pauseSignal{
+	width: auto;
+	height: 30px;
+	border-width: 0px 7px 0px 7px;
+	background-color: transparent;
+}
+/* CONTROLES */
+.controlContent{
+	position: absolute;
+	display: block;
+}
+.controlModel{
+	background-color: transparent;
+}
+.controlLeftPad{
+	height: auto;
+	width: 0;
+}
+/* Arrows */
+.arrow {
+	border: solid white;
+	border-width: 0 3px 3px 0 !important;
+	display: inline-block;
+	padding: 3px;
+}
+.up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.readable {
+	font-family: 'VT323', monospace !important;
+}
+
+.logoDiv {
+  text-align: center;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+}
+
+.logo {
+  width: 15%;
+  min-width: 100px;
+  max-width: 220px
+  text-align: center;
+}
+/* TELAS SEM ORIENTAÇÃO */
+/* MOBILE */
+@media screen and (min-width: 320px) and (max-width: 767px){
+	/* Tags HTML */
+	p, 
+	a, 
+	span, 
+	button, 
+	select {
+		font-size: 5vw;
+	}
+	/* Outras Classes */
+	.font-title{
+		font-size: 6.5vw;
+	}
+	.font-sub-title{
+		font-size: 6vw;
+	}
+	.width-quarter {
+		width: 90vw;
+	}
+	.container{
+		text-align: justify;
+	}
+	/* Modais */
+	.gameModal{
+		height: 76%;
+		left: 13%;
+		top: 20%;
+	}
+	.modalDiv{
+		height: 81%;
+		left: 12%;
+		top: 1%;
+	}
+	.menuParent {
+		left: 0%;
+		top: 55vw;
+		padding: 5vw;
+	}
+	.controlContent {
+		left: 14%;
+		bottom: 15%;
+	}
+	.pauseDiv{
+		left: 5%;
+		top: 30%;
+	}
+	/* Botões */
+	.buttonModel, 
+	.select {
+		height: 12vw;
+		margin: 5px 0 5px 0;
+	}
+	.modalChild{
+		height: 12vw;
+		width: auto;
+		padding: 0 4vw 0 4vw;
+		margin: 2vw 0 0 2vw;
+	}
+	.gameModal .modalChild{
+		margin: 0 2vw 2vw 0;
+	}
+	.controlModel{
+		width: 10vw;
+		height: 10vw;
+	}
+	.pauseButton {
+		right: 2%;
+		top: 2%;
+	}
+	.pauseSignal {
+		height: 22px;
+		border-width: 0px 4px 0px 4px;
+	}
+	.controlRighPad {
+		height: 0;
+		width: auto;
+		margin-top: 20%;
+	}
+	.readable {
+		font-size: 6vw;	
+	}
+}
+@media screen and (min-width: 768px){
+	/* Tags HTML */
+	p, 
+	a, 
+	span, 
+	button, 
+	select {
+		font-size: 4vw;
+	}
+	/* Outras Classes */
+	.font-title{
+		font-size: 6.5vw;
+	}
+	.font-sub-title{
+		font-size: 5.5vw;
+	}
+	.width-quarter {
+		width: 80vw;
+	}
+	/* Modais */
+	.gameModal{
+		height: 76%;
+		left: 13%;
+		top: 20%;
+	}
+	.modalDiv{
+		height: 81%;
+		left: 12%;
+		top: 1%;
+	}
+	.menuParent {
+		left: 10%;
+		top: 35vw;
+	}
+	.controlContent {
+		left: 14%;
+		bottom: 15%;
+	}
+	.pauseDiv{
+		left: 10%;
+		top: 30%;
+	}
+	/* Botões */
+	.buttonModel, 
+	.select {
+		height: 10vw;
+		margin: 5px 0 5px 0;
+	}
+	.modalChild{
+		height: 15vw;
+		width: auto;
+		padding: 0 4vw 0 4vw;
+	}
+	.gameModal .modalChild{
+		margin: 0 2vw 2vw 0;
+	}
+	.controlModel{
+		width: 10vw;
+		height: 10vw;
+	}
+	.readable {
+		font-size: 4.8vw;	
+	}
+}
+/* COM ORIENTAÇÃO LANDSCAPE */
+/* MOBILE */
+@media screen and (min-width: 320px)  and (max-width: 767px) and (orientation: landscape) {
+	/* Tags HTML */
+	p, 
+	a, 
+	span, 
+	button, 
+	select {
+		font-size: 3vw;
+	}
+	/* Outras Classes */
+	.font-title{
+		font-size: 4.5vw;
+	}
+	.font-sub-title{
+		font-size: 4vw;
+	}
+	.width-quarter {
+		width: 50vw;
+	}
+	.width-half-quarter{
+		width: 85%;
+	}
+	/* Modais */
+	.gameModal{
+		height: 76%;
+		left: 8%;
+		top: 10%;
+	}
+	.modalDiv{
+		height: 70%;
+		left: 8%;
+		top: -5%;
+	}
+	.menuParent {
+		left: 20%;
+		top: 16vw;
+	}
+	.controlContent {
+		left: 8%;
+		bottom: 10%;
+	}
+	.pauseDiv{
+		left: 25%;
+		top: 30%;
+	}
+	/* Botões */
+	.buttonModel, 
+	.select {
+		height: 5vw;
+		margin: 5px 0 5px 0;
+	}
+	.modalChild{
+		height: 5vw;
+		width: auto;
+		padding: 0 4vw 0 4vw;
+	}
+	.gameModal .modalChild{
+		margin: 0 2vw 2vw 0;
+	}
+	.controlModel{
+		width: 6vw;
+		height: 6vw;
+	}
+	.controlRighPad {
+		height: 0;
+		width: auto;
+		margin-top: 9%;
+	}
+	.readable {
+		font-size: 3.6vw;	
+	}
+}
+@media screen and (min-width: 768px)  and (max-width: 993px) and (orientation: landscape) {
+	/* Tags HTML */
+	p, 
+	a, 
+	span, 
+	button, 
+	select {
+		font-size: 2.5vw;
+	}
+	/* Outras Classes */
+	.font-title{
+		font-size: 4.5vw;
+	}
+	.font-sub-title{
+		font-size: 4vw;
+	}
+	.width-quarter {
+		width: 45vw;
+	}
+	.width-half-quarter{
+		width: 85%;
+	}
+	.controlContent {
+		left: 8%;
+		bottom: 10%;
+	}
+	/* Modais */
+	.gameModal{
+		height: 76%;
+		left: 8%;
+		top: 10%;
+	}
+	.modalDiv{
+		height: 65%;
+		left: 8%;
+		top: 0%;
+	}
+	.menuParent {
+		left: 28%;
+		top: 17vw;
+	}
+	/* Botões */
+	.buttonModel, 
+	.select {
+		height: 5vw;
+		margin: 5px 0 5px 0;
+	}
+	.modalChild{
+		height: 5vw;
+		width: auto;
+		padding: 0 4vw 0 4vw;
+	}
+	.gameModal .modalChild{
+		margin: 0 2vw 2vw 0;
+	}
+	.controlModel{
+		width: 8vw;
+		height: 8vw;
+	}
+	.readable {
+		font-size: 3vw;	
+	}
+}
+@media screen and (min-width: 992px) and (orientation: landscape) {
+	/* Tags HTML */
+	p,
+	a, 
+	span, 
+	button, 
+	select {
+		font-size: 4vw;
+	}
+	/* Outras Classes */
+	.font-title{
+		font-size: 4.5vw;
+	}
+	.font-sub-title{
+		font-size: 4vw;
+	}
+	.width-quarter {
+		width: 80vw;
+	}
+	.width-half-quarter{
+		width: 85%;
+	}
+	/* Modais */
+	.gameModal{
+		height: 76%;
+		left: 8%;
+		top: 20%;
+	}
+	.modalDiv{
+		height: 90%;
+		left: 8%;
+		top: 0%;
+	}
+	.menuParent {
+		left: 5%;
+		top: 15vw;
+	}
+	.controlContent {
+		left: 8%;
+		bottom: 10%;
+	}
+	/* Botões */
+	.buttonModel, 
+	.select {
+		height: 10vw;
+		margin: 5px 0 5px 0;
+	}
+	.modalChild{
+		height: 5vw;
+		width: auto;
+		padding: 0 4vw 0 4vw;
+	}
+	.gameModal .modalChild{
+		margin: 0 2vw 2vw 0;
+	}
+	.controlModel{
+		width: 8vw;
+		height: 8vw;
+	}
+	.readable {
+		font-size: 4.8vw;	
+	}
+}
+/* PC */
+@media screen and (min-width: 993px){
+	/* Tags HTML */
+	p, 
+	a, 
+	span, 
+	button, 
+	select {
+		font-size: 1.5vw;
+	}
+	/* Outras Classes */
+	.font-title{
+		font-size: 3vw;
+	}
+	.font-sub-title{
+		font-size: 2.5vw;
+	}
+	.width-quarter {
+		width: 25vw;
+	}
+	.width-half-quarter{
+		width: 85%;
+	}
+	.border{
+		border: 0.2vw solid white;
+	}
+	.container{
+		text-align: justify;
+	}
+	/* Modais */
+	.gameModal{
+		height: 76%;
+		left: 8%;
+		top: 20%;
+	}
+	.modalDiv{
+		height: 76%;
+		left: 8%;
+		top: 0%;
+	}
+	.menuParent {
+		left: 32%;
+		top: 30%;
+		padding: 5vw;
+	}
+	.controlContent {
+		left: 8%;
+		bottom: 15%;
+	}
+	.pauseDiv{
+		left: 35%;
+		top: 30%;
+	}
+	/* Botões */
+	.buttonModel, 
+	.select {
+		height: 4vw;
+		margin: 5px 0 5px 0;
+	}
+	.modalChild{
+		height: 4vw;
+		width: auto;
+		padding: 0 4vw 0 4vw;
+	}
+	.gameModal .modalChild{
+		margin: 0 2vw 2vw 0;
+	}
+	.controlModel{
+		width: 5vw;
+		height: 5vw;
+	}
+	.pauseSignal{
+		width: 1.5vw;
+		height: 3vw;
+		border-width: 0px 0.4vw 0px 0.4vw;
+		margin: 0.3vw 1vw 0.3vw 1vw;
+		background-color: transparent;
+	}
+	.readable {
+		font-size: 1.8vw !important;	
+	}
+}
